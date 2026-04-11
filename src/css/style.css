@@ -1,13 +1,24 @@
+@font-face{
+    font-family: 'Migra';
+    src: url('../fonts/Migra-Extralight.woff2') format('woff2');
+    src: url('../fonts/Migra-Extralight.woff') format('woff');
+    font-weight: normal;
+
+}
 body{
     background-color: #cbb293;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Arial', sans-serif;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
     margin: 0;
 }
 li{
     list-style: none;
+}
+h1{
+    font-size: 80px;;
+    font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
 }
 .header-container{
     background-color: #f7f1e3;
