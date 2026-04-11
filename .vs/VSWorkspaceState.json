@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\css"
   ],
-  "SelectedNode": "\\home.html",
+  "SelectedNode": "\\src\\css",
   "PreviewInSolutionExplorer": false
 }
