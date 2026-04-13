@@ -49,3 +49,47 @@ h1{
     font-weight: bold;
     text-transform: uppercase;
 }
+.home-section{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.home-section h1{
+    margin: 0;
+    margin-top: 5vh;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container img{
+    weight: 40vw;
+    height: 40vh;
+    border-radius: 10%;
+    margin-top: 10vh;
+    margin-right: 5vw;
+}
+.profile-container p{
+    color: #fff;
+    font-size: 18px;
+}
+.desc-container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-descr{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 40vw;
+    font-size: 18px;
+}
