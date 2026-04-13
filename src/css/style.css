@@ -17,17 +17,45 @@ li{
     list-style: none;
 }
 h1{
-    font-size: 80px;;
+    font-size: 6vw;
     font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    weight: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.agendar-button button{
+    font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: #f7f1e3;
+    cursor: pointer;    
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    height: 7vh;
+}
+.agendar-button button:hover{
+    background-color: #f7f1e39d;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.agendar-button a{
+    color: #c48b7a;
+    text-decoration: none;
+    font-size: 30px;
 }
 .header-container{
-    background-color: #f7f1e3;
+    background-color: #f7f4ed;
     width: 100vw;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0;
+}
+.logo-img{
+    height: 15vh;
+    margin-right: 20px;
 }
 .nav-container{
     background-color: #f7f1e3;
@@ -49,6 +77,12 @@ h1{
     font-weight: bold;
     text-transform: uppercase;
 }
+.navegacao a:hover{
+    color: #c48b7a9d;
+    transition: 1s;
+    transform: scale(1.05);
+    text-decoration: underline overline;
+}
 .home-section{
     width: 100vw;
     display: flex;
@@ -65,13 +99,14 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 5vw;
 }
 .profile-container img{
     weight: 40vw;
     height: 40vh;
     border-radius: 10%;
     margin-top: 10vh;
-    margin-right: 5vw;
+    
 }
 .profile-container p{
     color: #fff;
@@ -89,7 +124,15 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-top: 20px;
     width: 40vw;
     font-size: 18px;
+}
+.intro-descr p{
+    margin: 0;
+}
+.intro-descr ul{
+    padding: 0;
 }
