@@ -80,6 +80,9 @@ h1{
     transform: scale(1.05);
     text-decoration: underline overline;
 }
+.navegacao li{
+    list-style: none;
+}
 .home-section{
     width: 100vw;
     display: flex;
@@ -157,9 +160,40 @@ h1{
 
 .sobre-content{
     color: #fff;
-    width: 90vw;
+    width: 80vw;
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.acolher-img{
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+.avaliacoes-section{
+    width: 100%;
+    background-color: #f7f1e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avaliacoes-images{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.av1, .av2, .av3{
+    width: 65%;
+    margin-bottom: 5vh;
+    box-shadow: 0 0 4px  #00000073;
+    border-radius: 10px;
+}
+.av1{
+    align-self: end;
+}
+.av3{
+    align-self: start;
 }
