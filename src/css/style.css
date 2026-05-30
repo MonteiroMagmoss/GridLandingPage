@@ -13,9 +13,6 @@ body{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     margin: 0;
 }
-li{
-    list-style: none;
-}
 h1{
     font-size: 6vw;
     font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
@@ -135,4 +132,34 @@ h1{
 }
 .intro-descr ul{
     padding: 0;
+}
+.intro-descr li{
+    list-style: none;
+}
+.sobre-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+.sobre-imagem-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vw;
+}
+.sobre-imagem-container img{    
+    width: 35vh;
+    border-radius: 2vh;
+}
+
+.sobre-content{
+    color: #fff;
+    width: 90vw;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
