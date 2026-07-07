@@ -168,7 +168,7 @@ h1{
     margin-top: 10vh;
     margin-bottom: 20vh;
 }
-.avaliacoes-section{
+.white-section{
     width: 100%;
     background-color: #f7f1e3;
     display: flex;
@@ -176,9 +176,15 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.avaliacoes-section h1{
+.white-section h1{
     align-self: start;
     margin-left: 10vw;
+}
+.white-section p, .white-section ul, .white-section summary{
+    color: #cbb293;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-wrap: wrap;
 }
 .avaliacoes-images{
     width: 80%;
@@ -233,4 +239,28 @@ h1{
     font-size: 18px;
     margin-bottom: 5vh;
     margin-right: 1vw;
+}
+.como-funciona-container{
+    width: 70%;
+    justify-content: center;
+    justify-self: center;
+}
+.como-funciona-section h1{
+    text-decoration: underline 0.03em #cbb293;
+    text-underline-offset: 8px;
+
+}
+.como-funciona-container summary{
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: solid 0.14rem #cbb293;
+}
+.details-container{
+    width: 30vw;
+    margin-bottom: 2em;
+}
+.como-funciona-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
