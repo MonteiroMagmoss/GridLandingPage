@@ -278,3 +278,28 @@ h1{
     flex-direction: row;
     justify-content: space-around;
 }
+.contatos-container{
+    margin-left: 5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.contatos-img img{
+    display: block;
+    height: 80vh;
+    width: 40vw;
+    object-fit: cover;
+    object-position: center;
+}
+.semi-final-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.final-section{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
