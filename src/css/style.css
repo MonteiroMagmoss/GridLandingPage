@@ -306,13 +306,40 @@ h1{
 }
 .semi-final-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    width: 70dvw;
+    padding-bottom: 10dvh;
+}
+.semi-final-container p{
+    font-weight: bold;
+}
+.container-esq{
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.semi-final-img{
-    width: 20px;
+.container-esq p{
+    text-wrap: nowrap;
+    text-decoration: underline;
 }
-
+.container-esq img{
+    padding-top: 5dvh;
+    height: 15dvh;
+    width: 15dvw;
+}
+.semi-final-img{
+    width: 10%;
+    align-self: end;
+    padding-right: 5vw;
+    padding-top: 8dvh;
+}
+.crp{
+    color: #cbb2937e !important;
+    align-self: start;
+    padding-left: 10dvw;
+}
 .final-section{
     display: flex;
     justify-self: center;
