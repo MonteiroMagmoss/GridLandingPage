@@ -1,3 +1,11 @@
+@media(max-width:1000px){
+    .navegacao{
+        display: none !important;
+    }
+    .nav-button{
+        display: block !important;
+    }
+}
 @font-face{
     font-family: 'Migra';
     src: url('../fonts/Migra-Extralight.woff2') format('woff2');
@@ -81,6 +89,11 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.nav-button{
+    display: none;
+    color: #c48b7a;
+    font-size: 40px;
 }
 .navegacao{
     display: flex;
@@ -297,6 +310,9 @@ h1{
     justify-self: center;
     align-items: center;
 }
+.contatos-container p, .insta {
+    color: #e0e0d5;
+}
 .contatos-img img{
     display: block;
     height: 80vh;
@@ -311,9 +327,7 @@ h1{
     width: 70dvw;
     padding-bottom: 10dvh;
 }
-.semi-final-container p{
-    font-weight: bold;
-}
+
 .container-esq{
     padding-right: 100px;
     display: flex;
@@ -327,18 +341,13 @@ h1{
 .container-esq img{
     padding-top: 5dvh;
     height: 15dvh;
-    width: 15dvw;
+    width: 20dvw;
 }
 .semi-final-img{
     width: 10%;
     align-self: end;
     padding-right: 5vw;
     padding-top: 8dvh;
-}
-.crp{
-    color: #cbb2937e !important;
-    align-self: start;
-    padding-left: 10dvw;
 }
 .final-section{
     display: flex;
