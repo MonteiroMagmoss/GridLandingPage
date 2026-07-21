@@ -1,4 +1,4 @@
-@media(max-width:1000px){
+@media(max-width:1024px){
     .navegacao{
         display: none !important;
     }
@@ -12,6 +12,11 @@
     src: url('../fonts/Migra-Extralight.woff') format('woff');
     font-weight: normal;
 
+}
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 html{
     scroll-behavior: smooth;
@@ -30,10 +35,10 @@ main{
 }
 h1{
     font-size: 6vw;
+    color: #9a583c;
     font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     text-align: center;
-    text-transform: uppercase;
 }
 .agendar-button button{
     font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
