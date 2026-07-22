@@ -5,6 +5,11 @@
     .nav-button{
         display: block !important;
     }
+    .home-section{
+        display: flex;
+        flex-direction: column !important;
+    }
+
 }
 @font-face{
     font-family: 'Migra';
@@ -39,6 +44,7 @@ h1{
     font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     text-align: center;
+
 }
 .agendar-button button{
     font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
