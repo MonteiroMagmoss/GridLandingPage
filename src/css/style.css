@@ -5,7 +5,7 @@
     .nav-button{
         display: block !important;
     }
-    .home-section{
+    .home-section, .sobre-content, .certificacao-section, .semi-final-container{
         display: flex;
         flex-direction: column !important;
     }
