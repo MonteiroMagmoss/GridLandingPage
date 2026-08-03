@@ -88,6 +88,28 @@ h1{
     flex-direction: row;
     justify-self: end;
     align-self: flex-end;
+
+    transition: .5s;
+}
+.whatsapp:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+.whatsapp img{
+    border-radius: 50%;
+    box-shadow: 0 0 10px #2ba82b81;
+    animation: shadow-animation 4s infinite;
+}
+@keyframes shadow-animation{
+    0%{
+        box-shadow: 0 0 10px #2ba82b81;
+    }
+    50%{
+        box-shadow: 0 0 40px #2ba82b;
+    }
+    100%{
+        box-shadow: 0 0 10px #2ba82b81;
+    }
 }
 .logo-img{
     height: 15vh;
@@ -120,12 +142,15 @@ h1{
 }
 .navegacao a:hover{
     color: #c48b7a9d;
-    transition: 1s;
-    transform: scale(1.05);
+    transition: 0.3s;
     text-decoration: underline overline;
 }
 .navegacao li{
     list-style: none;
+}
+.navegacao li:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 .home-section{
     width: 100vw;
