@@ -104,7 +104,7 @@ h1{
 .nav-button{
     display: none;
     color: var(--primary);
-    font-size: 40px;
+    font-size: 1.2em;
 }
 .navegacao{
     display: flex;
@@ -153,7 +153,7 @@ h1{
 }
 .profile-container p{
     color: var(--title-color);
-    font-size: 18px;
+    font-size: 1.2em;
 }
 .desc-container{
     height: 50vh;
@@ -171,7 +171,7 @@ h1{
     text-align: center;
     margin-top: 20px;
     width: 40vw;
-    font-size: 18px;
+    font-size: 1.3em;
 }
 .intro-descr p{
     margin: 0;
@@ -204,7 +204,7 @@ h1{
 .sobre-content{
     color: var(--white);
     width: 80vw;
-    font-size: 18px;
+    font-size: 1.2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,7 +231,7 @@ h1{
 }
 .white-section p, .white-section ul, .white-section summary{
     color: var(--text-color);
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 500;
     text-wrap: wrap;
 }
