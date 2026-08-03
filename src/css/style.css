@@ -348,6 +348,7 @@ h1{
 }
 .contatos-container p, .insta {
     color: var(--secondary);
+    font-size: 1.2em;
 }
 .contatos-img img{
     display: block;
