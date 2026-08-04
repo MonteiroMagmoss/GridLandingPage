@@ -1,20 +1,13 @@
+/*
+    ROOT e RESET
+*/
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
-@font-face{
-    font-family: 'Migra';
-    src: url('../fonts/Migra-Extralight.woff2') format('woff2');
-    src: url('../fonts/Migra-Extralight.woff') format('woff');
-    font-weight: normal;
 
-}
-.playfair-display{
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
 :root{
     /* Cores */
     --bg: #cbb293;
@@ -32,6 +25,28 @@
     /* Outras Variaveis */
     --header-height:30px;
 }
+
+/*
+    IMPORTANDO FONTES
+*/
+
+@font-face{
+    font-family: 'Migra';
+    src: url('../fonts/Migra-Extralight.woff2') format('woff2');
+    src: url('../fonts/Migra-Extralight.woff') format('woff');
+    font-weight: normal;
+
+}
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*
+    CLASSES UTILITÁRIAS
+*/
+
 .flex{
     display: flex;
 }
@@ -42,6 +57,10 @@
 }
 .column{
     flex-direction: column;
+}
+.spacing{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 html{
     scroll-behavior: smooth;
@@ -61,6 +80,8 @@ main{
 }
 section{
     width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 h1{
     font-size: 6rem;
@@ -224,9 +245,13 @@ h1{
     flex-direction: column;
     margin-right: 5vw;
 }
-.sobre-imagem-container img{    
-    width: 35vh;
+.sobre-imagem-container img{   
+    display: block;
+    width: 22vw;
+    height: 70vh;
     border-radius: 2vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 .sobre-content{
@@ -246,7 +271,8 @@ h1{
     width: 100%;
     background-color: var(--secondary);
     flex-direction: column;
-    
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .white-section h1{
     align-self: start;
@@ -280,20 +306,6 @@ h1{
     height: 65%;
     border-radius: 10px;
     box-shadow: 0 0 4px  #00000073;
-}
-.certificacao-section{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-}
-.descricao-certificacao, .certificacao-img{
-    width: 40%;
-}
-.formacao-img{
-    height: auto;
-    width: 45vw;
-    border-radius: 50px;
-    margin-top: 2vh;
 }
 
 .descricao-titulo{
@@ -340,6 +352,20 @@ h1{
     flex-direction: row;
     justify-content: space-around;
 }
+.certificacao-section{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.descricao-certificacao, .certificacao-img{
+    width: 40%;
+}
+.formacao-img{
+    height: auto;
+    width: 45vw;
+    border-radius: 50px;
+    margin-top: 2vh;
+}
 .contatos-container{
     margin-left: 5vw;
 
@@ -376,8 +402,9 @@ h1{
 }
 .container-esq img{
     padding-top: 5dvh;
-    height: 15dvh;
-    width: 20dvw;
+    height: 20dvh;
+    width: auto;
+    object-position: center;
 }
 .semi-final-img{
     width: 10%;
