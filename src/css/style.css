@@ -59,8 +59,11 @@ header{
 main{
     padding-top: var(--header-height);
 }
+section{
+    width: 100%;
+}
 h1{
-    font-size: 6vw;
+    font-size: 6rem;
     color: var(--title-color);
     font-family: 'Migra', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
@@ -319,6 +322,14 @@ h1{
     font-size: 1.2em;
     font-weight: bold;
     border-bottom: solid 0.14rem var(--text-color);
+}
+.primera-sessao p, .primera-sessao li{
+    color: var(--secondary);
+    font-size: 1.2em;
+}
+.pode-ajudar-container p, .pode-ajudar-container li{
+    color: var(--secondary);
+    font-size: 1.2em;
 }
 .details-container{
     width: 30vw;
