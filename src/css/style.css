@@ -16,6 +16,7 @@
   font-style: normal;
 }
 :root{
+    /* Cores */
     --bg: #cbb293;
 
     --primary: #c48b7a;
@@ -27,13 +28,15 @@
     --title-color: #9a583c;
 
     --white: #e0e0d5;
+
+    /* Outras Variaveis */
+    --header-height:90px;
 }
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 120px;
 }
 body{
-    width: 100vw;
     background-color: var(--bg);
     display: flex;
     flex-direction: column;
@@ -41,8 +44,11 @@ body{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     margin: 0;
 }
+header{
+    padding-top: var(--header-height);
+}
 main{
-    padding-top: 120px;
+    padding-top: var(--header-height);
 }
 h1{
     font-size: 6vw;
