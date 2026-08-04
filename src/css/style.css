@@ -30,7 +30,18 @@
     --white: #e0e0d5;
 
     /* Outras Variaveis */
-    --header-height:90px;
+    --header-height:30px;
+}
+.flex{
+    display: flex;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
 }
 html{
     scroll-behavior: smooth;
@@ -38,14 +49,12 @@ html{
 }
 body{
     background-color: var(--bg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     margin: 0;
 }
 header{
     padding-top: var(--header-height);
+    padding-bottom: var(--header-height);
 }
 main{
     padding-top: var(--header-height);
@@ -83,9 +92,6 @@ h1{
     background-color: var(--secondary);
     width: 100%;
     height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 0;
 }
 .whatsapp{
@@ -96,7 +102,6 @@ h1{
     width: 8vw;
     height: 8vh;
 
-    display: flex;
     flex-direction: row;
     justify-self: end;
     align-self: flex-end;
@@ -166,20 +171,14 @@ h1{
 }
 .home-section{
     width: 100%;
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 .home-section h1{
     margin: 0;
     margin-top: 5vh;
 }
 .profile-container{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-right: 5vw;
 }
 .profile-container img{
@@ -194,17 +193,12 @@ h1{
 }
 .desc-container{
     height: 50vh;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 .intro-descr{
     color: var(--title-color);
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin-top: 20px;
     width: 40vw;
@@ -220,17 +214,11 @@ h1{
     list-style: none;
 }
 .sobre-section{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 20vh;
 }
 .sobre-imagem-container{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-right: 5vw;
 }
 .sobre-imagem-container img{    
@@ -242,9 +230,6 @@ h1{
     color: var(--white);
     width: 80vw;
     font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .acolher-img{
     margin-top: 10vh;
@@ -257,10 +242,8 @@ h1{
 .white-section{
     width: 100%;
     background-color: var(--secondary);
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 .white-section h1{
     align-self: start;
@@ -274,10 +257,7 @@ h1{
 }
 .avaliacoes-images{
     width: 80%;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .av1, .av2{
     height: 65%;
@@ -291,7 +271,6 @@ h1{
 .av-images{
     width: 100vw;
     margin-bottom: 5vh;
-    display: flex;
     justify-content: space-around;
 }
 .av3{
@@ -353,10 +332,7 @@ h1{
 .contatos-container{
     margin-left: 5vw;
 
-    display: flex;
     flex-direction: column;
-    justify-self: center;
-    align-items: center;
 }
 .contatos-container p, .insta {
     color: var(--secondary);
@@ -397,11 +373,6 @@ h1{
     align-self: end;
     padding-right: 5vw;
     padding-top: 8dvh;
-}
-.final-section{
-    display: flex;
-    justify-self: center;
-    align-items: center;
 }
 
 @media(max-width:1024px){
