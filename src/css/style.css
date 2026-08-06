@@ -271,8 +271,8 @@ h1{
     width: 100%;
     background-color: var(--secondary);
     flex-direction: column;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 .white-section h1{
     align-self: start;
