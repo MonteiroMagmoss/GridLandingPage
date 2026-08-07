@@ -198,6 +198,7 @@ h1{
 .home-section{
     width: 100%;
     flex-direction: row;
+    margin-top: 15vh;
 }
 .home-section h1{
     margin: 0;
@@ -221,14 +222,19 @@ h1{
     height: 50vh;
     flex-direction: column;
     
+    margin-top: 10vh; 
 }
 .intro-descr{
     color: var(--title-color);
     flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
-    width: 40%;
-    font-size: 1.3em;
+    text-align: start;
+    align-items: start;
+    
+    width: 60%;
+    font-size: 1.5em;
+}
+.intro-descr ul{
+    text-align: start;
 }
 .intro-descr p{
     margin: 0;
