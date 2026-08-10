@@ -291,29 +291,6 @@ h1{
     font-weight: 500;
     text-wrap: wrap;
 }
-.avaliacoes-images{
-    width: 80%;
-    flex-direction: column;
-}
-.av1, .av2{
-    height: 65%;
-    margin-bottom: 5vh;
-    box-shadow: 0 0 4px  #00000073;
-    border-radius: 10px;
-}
-.av1{
-    align-self: end;
-}
-.av-images{
-    width: 100%;
-    margin-bottom: 5vh;
-    justify-content: space-around;
-}
-.av3{
-    height: 65%;
-    border-radius: 10px;
-    box-shadow: 0 0 4px  #00000073;
-}
 
 .descricao-titulo{
     display: flex;
