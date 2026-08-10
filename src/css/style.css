@@ -147,11 +147,8 @@ h1{
 }
 .whatsapp{
     position: fixed;
-    bottom: 5vh;
-    right: 5vh;
-
-    width: 100px;
-    height: 100px;
+    bottom: 3vh;
+    right: 3vh;
 
     flex-direction: row;
     justify-self: end;
