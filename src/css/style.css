@@ -147,11 +147,11 @@ h1{
 }
 .whatsapp{
     position: fixed;
-    bottom: 50px;
-    right: 1px;
+    bottom: 5vh;
+    right: 5vh;
 
-    width: 8%;
-    height: 8%;
+    width: 100px;
+    height: 100px;
 
     flex-direction: row;
     justify-self: end;
@@ -167,6 +167,9 @@ h1{
     border-radius: 50%;
     box-shadow: 0 0 10px #2ba82b81;
     animation: shadow-animation 4s infinite;
+
+    height: 80px;
+    width: auto;
 }
 @keyframes shadow-animation{
     0%{
