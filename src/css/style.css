@@ -66,6 +66,9 @@
     color: #f7f1e3;
     text-decoration: none;
 }
+.text-size{
+    font-size: 1.4em;
+}
 
 .white-section{
     width: 100%;
@@ -80,7 +83,7 @@
 }
 .white-section p, .white-section ul, .white-section summary{
     color: var(--text-color);
-    font-size: 1.2em;
+    
     font-weight: 500;
     text-wrap: wrap;
 }
@@ -232,21 +235,10 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
 }
-.desc-container{
-    padding-left: 5vw;
-    height: max-content;
-    flex-direction: column;
-    
-    margin-top: 10vh;
-    align-items: start;
-}
-.desc-container li{
+.home-desc-color{
     color: var(--title-color);
-    font-size: 1.4em;
-    list-style: none;
 }
 .descricao{
-    color: var(--title-color);
     flex-direction: column;
     text-align: start;
     align-items: start;
@@ -254,8 +246,21 @@ h1{
     margin-bottom: 8vh;
     width: 100%;
     max-width: 800px;
-    font-size: 1.4em;
+
 }
+.desc-container{
+    padding-left: 5vw;
+    height: max-content;
+    flex-direction: column;
+    
+    margin-top: 10vh;
+    align-items: start;
+
+}
+.desc-container li{
+    list-style: none;
+}
+
 .profile-container{
     flex-direction: column;
 }
@@ -267,7 +272,7 @@ h1{
 }
 .profile-container p{
     color: var(--title-color);
-    font-size: 1.2em;
+
 }
 
 /*
@@ -284,11 +289,15 @@ h1{
 .sobre-content{
     color: var(--white);
     width: 80vw;
-    font-size: 1.2em;
+
 }
 .sobre-imagem-container{
     flex-direction: column;
     margin-right: 5vw;
+}
+.sobre-imagem-container h1{
+    text-wrap: nowrap;
+    font-size: clamp(2.5rem, 8vw, 4rem);
 }
 .sobre-imagem-container img{   
     display: block;
@@ -311,7 +320,6 @@ h1{
     justify-self: center;
 }
 .como-funciona-container summary{
-    font-size: 1.2em;
     font-weight: bold;
     border-bottom: solid 0.14rem var(--text-color);
 }
@@ -320,7 +328,6 @@ h1{
 */
 .primera-sessao p, .primera-sessao li{
     color: var(--secondary);
-    font-size: 1.2em;
 }
 
 .como-funciona-details{
@@ -341,7 +348,6 @@ h1{
 */
 .pode-ajudar-container p, .pode-ajudar-container li{
     color: var(--secondary);
-    font-size: 1.2em;
 }
 /*
    ////////////   SEMI FINAL   ////////////
@@ -389,7 +395,7 @@ h1{
 }
 .contatos-container p, .insta {
     color: var(--secondary);
-    font-size: 1.2em;
+
 }
 .contatos-img img{
     display: block;
