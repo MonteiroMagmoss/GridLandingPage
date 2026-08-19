@@ -69,14 +69,17 @@
     text-decoration: none;
 }
 .text-size{
-    font-size: 1.4em;
+    
+    text-align: justify;
 }
 .list-format{
     list-style: inside;
 }
 .text-formatation{
+    font-size: 1.4em;
     width: 100%;
     max-width: 800px;
+    text-align: justify;
 }
 
 .white-section{
@@ -85,10 +88,6 @@
     flex-direction: column;
     padding-top: 10vh;
     padding-bottom: 10vh;
-}
-.white-section h1{
-    align-self: start;
-    margin-left: 10vw;
 }
 .white-section p, .white-section ul, .white-section summary{
     color: var(--text-color);
@@ -324,7 +323,8 @@ h1{
     text-underline-offset: 8px;
 }
 .como-funciona-container{
-    width: 70%;
+    width: 100%;
+    max-width: 1000px;
     justify-content: center;
     justify-self: center;
 }
@@ -373,12 +373,16 @@ h1{
     border-radius: 20px;
     padding: 15px;
     margin: 10px;
-    width: 90%;
+    width: 300px;
     max-width: 500px;
 
     height: 100%;
     max-height: 280px;
     transition: 0.3s;
+}
+.av-text{
+    overflow: hidden;
+    height: 100px;
 }
 .avaliacoes-card p{
     color: #2e2e2e;
@@ -473,5 +477,21 @@ h1{
     }
     .logo-img{
         max-height: 100px;
+    }
+    .contatos-section{
+        flex-direction: column-reverse;
+    }
+    .contatos-section img{
+        width: 100vw;
+        height: 500px;
+    }
+    .text-formatation{
+        max-width: 300px;
+    }
+    .container-esq img{
+        max-height: 120px;
+    }
+    .semi-final-img{
+        max-width: 200px;
     }
 }
