@@ -294,7 +294,6 @@ h1{
 */
 .sobre-section{
     flex-direction: column;
-    margin-top: 20vh;
 }
 .sobre-content{
     color: var(--white);
